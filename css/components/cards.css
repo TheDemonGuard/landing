@@ -1,0 +1,126 @@
+/* Your card CSS file */
+.container{
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-category {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 4px;
+  border-radius: 5px;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 0, 0, 0.5)), url(../../images/food.avif) ;
+  background-size: cover;
+  background-position: center;
+  /* padding: 24px;*/
+  border-radius: 4px;
+  box-shadow: 3px 3px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-product > img {
+  height: 200px;
+}
+
+.card-product {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: white;
+  margin-top: 48px;
+  box-shadow: 3px 3px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-product-insider {
+  /* display: flex; */
+  /* align-items: left; */
+  /* flex-direction: row; */
+  padding: 16px;
+}
+
+.card-trip {
+  margin-top: 48px;
+  box-shadow: 3px 3px 10px 10px rgba(0, 0, 0, 0.2);
+
+  /* display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: white;
+  margin-top: 24px; */
+}
+
+.card-trip-img {
+  height: 200px;
+  width: 100%;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 0, 0, 0.5)), url(../../images/anciantBuilding.avif) ;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-trip-insider {
+  position: relative;
+  display: flex;
+  height: 200px;
+  /* width: 100%; */
+  padding: 16px;
+  justify-content: space-between;
+}
+
+.avatar {
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.content1-img {
+  height: 200px;
+  width: 100%;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../../images/apply.svg) ;
+  background-size: cover;
+  background-position: center;
+}
+
+.content2-img {
+  height: 200px;
+  width: 100%;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../../images/learn.svg) ;
+  background-size: cover;
+  background-position: center;
+}
+
+.content3-img {
+  height: 200px;
+  width: 100%;
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../../images/product.svg) ;
+  background-size: cover;
+  background-position: center;
+}
+
+.contents {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.content1 {
+  text-align: center;
+  box-shadow: 3px 3px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.content2 {
+  text-align: center;
+  box-shadow: 3px 3px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.content3 {
+  text-align: center;
+  box-shadow: 3px 3px 10px 10px rgba(0, 0, 0, 0.2);
+}
